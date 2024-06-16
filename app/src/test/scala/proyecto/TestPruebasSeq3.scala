@@ -28,13 +28,13 @@ class TestPruebasSeq3 extends AnyFunSuite{
   test("test 3") {
     val its3 = itsCurso("CLO", "SVO")
     assert(its3 === List(
-      List(Vuelo("AVA", 9432, "CLO", 7, 0, "SVO", 2, 20, 4)),
       List(Vuelo("AVA", 9432, "CLO", 7, 0, "BOG", 8, 0, 0),
       Vuelo("IBERIA", 505, "BOG", 18, 0, "MAD", 12, 0, 0),
       Vuelo("IBERIA", 506, "MAD", 14, 0, "SVO", 23, 20, 0)),
       List(Vuelo("AVA", 9432, "CLO", 7, 0, "BOG", 8, 0, 0),
       Vuelo("IBERIA", 505, "BOG", 18, 0, "MAD", 12, 0, 0),
-      Vuelo("IBERIA", 507, "MAD", 16, 0, "SVO", 1, 20, 0))
+      Vuelo("IBERIA", 507, "MAD", 16, 0, "SVO", 1, 20, 0)),
+      List(Vuelo("AVA", 9432, "CLO", 7, 0, "SVO", 2, 20, 4))
       )
     )
   }
