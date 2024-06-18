@@ -1,5 +1,0 @@
-package proyecto
-
-class Vuelo {
-
-}
