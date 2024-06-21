@@ -44,9 +44,9 @@ class TestPruebasSeq2 extends AnyFunSuite{
   test("test4") {
     val its4 = itsCurso ( "CLO" , "MEX" )
     assert(its4 === List(
-        List ( Vuelo ("AVA", 9432 ,"CLO", 7 , 0 ,"BOG", 8 , 0 , 0 ) , 
-              Vuelo ("VIVA", 756 ,"BOG", 9 , 0 ,"MDE", 10 , 0 , 0 ) ,  
-              Vuelo ("VIVA", 769 ,"MDE", 11 , 0 ,"BAQ", 12 , 0 , 0 ) , 
+        List ( Vuelo ("AVA", 9432 ,"CLO", 7 , 0 ,"BOG", 8 , 0 , 0 ) ,
+              Vuelo ("VIVA", 756 ,"BOG", 9 , 0 ,"MDE", 10 , 0 , 0 ) ,
+              Vuelo ("VIVA", 769 ,"MDE", 11 , 0 ,"BAQ", 12 , 0 , 0 ) ,
               Vuelo ("AVA", 5643 ,"BAQ", 14 , 0 ,"MEX", 16 , 0 , 0 ) ),
         List ( Vuelo ("AVA", 9432 ,"CLO", 7 , 0 ,"BOG", 8 , 0 , 0 ) ,
               Vuelo ("LATAM", 787 ,"BOG", 17 , 0 ,"MEX", 19 , 0 , 0 ) )
