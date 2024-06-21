@@ -88,17 +88,6 @@ class Itinerario() {
     }
   }
 
-  def itinerarioAgrupado(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String) => List[Vuelo] = {
-    val buscarItinerarios = itinerarios(vuelos, aeropuertos)
-
-    (aeropuertoOrigen: String, aeropuertoDestino: String) => {
-      buscarItinerarios(aeropuertoOrigen, aeropuertoDestino)
-        .sortBy(ruta => calcularTiempoVueloTotal(ruta, aeropuertos))
-        .take(3)
-        .flatten
-    }
-  }
-
   def itinerariosSalida(vuelos: List[Vuelo], aeropuertos: List[Aeropuerto]): (String, String, Int, Int) => List[Vuelo] = {
     val buscarItinerariosFn = itinerarios(vuelos, aeropuertos)
 
