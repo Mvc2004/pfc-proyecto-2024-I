@@ -1,3 +1,4 @@
-# Repositorio base
+# proyecto final
 
-Este repositorio tiene las configuraciones y librerías necesarias para trabajar concurrencia
+Merly velasquez cortez - 2266016
+Sofia Castillo - 2266149
